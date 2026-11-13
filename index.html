@@ -532,6 +532,32 @@ fieldset.campo legend{font-weight:700;font-size:13px;color:var(--suave);letter-s
 .fotos-atuais .f-capa{left:4px;bottom:4px;right:auto;top:auto;width:auto;height:auto;border-radius:999px;background:rgba(0,47,125,.88);font:800 10px var(--f-corpo);padding:3px 7px;letter-spacing:.06em}
 #p-foto-prev{margin-top:8px}
 
+/* ===== compactar: logo e layout menores, imoveis mais acima ===== */
+.wrap{max-width:1120px}
+.topo .wrap{min-height:64px}
+.hero .wrap{padding-block:96px 130px;gap:28px}
+.hero h1{font-size:clamp(34px,4.6vw,62px);margin-bottom:16px}
+.hero .lead{font-size:clamp(15px,1.2vw,17px);margin-bottom:22px;max-width:44ch}
+.hero .acoes .btn{padding-block:11px}
+.hero-logo{max-width:290px}
+.hero .aneis{width:min(660px,95vw)}
+.skyline{height:min(190px,22vw);min-height:100px}
+.busca{margin-top:-52px;padding:18px}
+section.bloco{padding-block:60px}
+.faixa-tipos{margin-top:24px;padding-block:16px}
+.faixa-tipos span{font-size:clamp(22px,3.2vw,40px)}
+#contato .wrap{padding-block:80px 130px}
+@media (max-width:1000px){
+  .hero .wrap{padding-block:84px 112px}
+  .hero-logo{max-width:170px}
+}
+@media (max-width:600px){
+  .hero .wrap{padding-block:78px 96px}
+  .hero h1{font-size:clamp(32px,10vw,44px)}
+  .hero-logo{max-width:140px}
+  section.bloco{padding-block:48px}
+}
+
 </style>
 </head>
 <body>
